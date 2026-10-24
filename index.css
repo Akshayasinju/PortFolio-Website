@@ -1,0 +1,31 @@
+
+:root {
+  font-family: Arial, sans-serif;
+  color: #182230;
+  background: #f6f8fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #176b87;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #e4a11b;
+  outline-offset: 3px;
+}

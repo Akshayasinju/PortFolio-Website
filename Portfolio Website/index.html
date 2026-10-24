@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website Creator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio Website Creator</h1>
+  </header>
+
+  <section class="form-section">
+    <h2>Enter Your Portfolio Details</h2>
+    <form id="portfolioForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="text" id="title" placeholder="Your Title (e.g. Web Developer)" required>
+      <textarea id="about" placeholder="Write About Yourself"></textarea>
+      <input type="text" id="skills" placeholder="Skills (comma separated)">
+      <input type="text" id="projects" placeholder="Projects (comma separated)">
+      <input type="email" id="email" placeholder="Your Email">
+      <button type="submit" class="btn">Generate Portfolio</button>
+    </form>
+  </section>
+
+  <section class="output-section" id="portfolioPreview">
+    <!-- Portfolio preview will appear here -->
+  </section>
+
+  <footer>
+    <p>© 2025 Portfolio Builder Project</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
